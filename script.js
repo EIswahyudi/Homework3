@@ -36,6 +36,8 @@
         }
     }
     alert("Your password is: " + password);
+
+    document.getElementByID("display").alert = password;
  })
 
 
